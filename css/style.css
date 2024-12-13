@@ -3,23 +3,23 @@ body {
   font-family: 'Lato', sans-serif;
   margin: 0;
   padding: 0;
-  background-color: #fff8f0; /* Warm, soft background */
-  color: #4b3832; /* Dark brown for text */
+  background-color: #fff8f0; 
+  color: #4b3832; 
 }
 
 header {
-  background: #ffb385; /* Soft peach for navbar */
+  background: rgba(255, 179, 133, .9); 
   color: #4b3832;
   position: fixed;
   top: 0;
   width: 100%;
   z-index: 1000;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
 }
 
 .navbar {
   display: flex;
-  justify-content: center; /* Center the navbar content */
+  justify-content: center;
   align-items: center;
   padding: 30px 20px;
 }
@@ -29,11 +29,11 @@ header {
   display: flex;
   margin: 0;
   padding: 0;
-  gap: 40px; /* Add spacing between links */
+  gap: 40px;
 }
 
 .navbar a {
-  font-size: 1.2em; /* Increase size for boldness */
+  font-size: 1.2em; /
   font-weight: bold;
   letter-spacing: 1px;
 }
@@ -44,18 +44,17 @@ header {
   padding: 10px 20px;
   border-radius: 5px;
   transition: transform 0.3s ease, color 0.3s ease;
-  text-decoration-color: transparent; /* Default invisible underline */
+  text-decoration-color: transparent; 
 }
 
 .navbar ul a:hover {
-  transform: scale(1.2); /* Scales only the element */
+  transform: scale(1.2); 
   color: #4b3832;
   text-decoration: underline;
-  text-decoration-color: #4b3832; /* Add color to the underline */
-  text-decoration-thickness: 2px; /* Set thickness of the underline */
+  text-decoration-color: #4b3832; 
+  text-decoration-thickness: 2px; 
 }
 
-/* Hero Section */
 #hero {
   height: 100vh;
   display: flex;
@@ -63,9 +62,9 @@ header {
   justify-content: center;
   align-items: center;
   text-align: center;
-  background: linear-gradient(135deg, #ffe5d0, #ffb385, #ff8a65, #ffcc80);
-  background-size: 400% 400%; /* Larger background for more dynamic animation */
-  animation: gradientMove 8s infinite; /* Faster animation for liveliness */
+  background: linear-gradient(135deg, #ffe5d0, #ffb385, #ffcc80);
+  background-size: 400% 400%; 
+  animation: gradientMove 8s infinite; 
   color: #4b3832;
 }
 
