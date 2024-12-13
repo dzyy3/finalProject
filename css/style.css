@@ -1,0 +1,119 @@
+/* General Styling */
+body {
+  font-family: 'Lato', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #fff8f0; /* Warm, soft background */
+  color: #4b3832; /* Dark brown for text */
+}
+
+header {
+  background: #ffb385; /* Soft peach for navbar */
+  color: #4b3832;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+.navbar {
+  display: flex;
+  justify-content: center; /* Center the navbar content */
+  align-items: center;
+  padding: 30px 20px;
+}
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+  gap: 40px; /* Add spacing between links */
+}
+
+.navbar a {
+  font-size: 1.2em; /* Increase size for boldness */
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: #4b3832;
+  padding: 10px 20px;
+  border-radius: 5px;
+  transition: transform 0.3s ease, color 0.3s ease;
+  text-decoration-color: transparent; /* Default invisible underline */
+}
+
+.navbar ul a:hover {
+  transform: scale(1.2); /* Scales only the element */
+  color: #4b3832;
+  text-decoration: underline;
+  text-decoration-color: #4b3832; /* Add color to the underline */
+  text-decoration-thickness: 2px; /* Set thickness of the underline */
+}
+
+/* Hero Section */
+#hero {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background: linear-gradient(135deg, #ffe5d0, #ffb385, #ff8a65, #ffcc80);
+  background-size: 400% 400%; /* Larger background for more dynamic animation */
+  animation: gradientMove 8s infinite; /* Faster animation for liveliness */
+  color: #4b3832;
+}
+
+/* Keyframes for animated gradient */
+@keyframes gradientMove {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+#hero h1 {
+  font-size: 3em;
+  margin-bottom: 10px;
+}
+
+#hero p {
+  font-size: 1.2em;
+}
+
+#about, #projects {
+  padding: 60px 20px;
+  text-align: center;
+  background-color: #fff3e8;
+  border-top: 4px solid #ffe5d0;
+}
+
+#about h2, #projects h2 {
+  font-size: 2.2em;
+  margin-bottom: 15px;
+}
+
+#about p {
+  font-size: 1.1em;
+  line-height: 1.6;
+}
+
+footer {
+  background: #4b3832;
+  color: #fff8f0;
+  text-align: center;
+  padding: 15px 0;
+}
+
+.fa-2xl {
+  padding: 0 10px;
+  color: white;
+}
+
+.fa-2xl:hover {
+  transform: scale(1.2);
+}
