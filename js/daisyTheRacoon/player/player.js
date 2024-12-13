@@ -45,9 +45,9 @@ class Player {
       Player.imgY = 19 * Player.imgScale;
       
       // SPRITES MADE BY: SeethingSwarm
-      Player.idleGif = loadImage("spritesheets/idle.gif", img => {img.resize(Player.imgX, 0);});
-      Player.walkGif = loadImage("spritesheets/walk.gif", img => {img.resize(Player.imgX, 0);});
-      Player.runGif = loadImage("spritesheets/run.gif", img => {img.resize(Player.imgX, 0);});
+      Player.idleGif = loadImage("../../js/daisyTheRacoon/spritesheets/idle.gif", img => {img.resize(Player.imgX, 0);});
+      Player.walkGif = loadImage("../../js/daisyTheRacoon/spritesheets/walk.gif", img => {img.resize(Player.imgX, 0);});
+      Player.runGif = loadImage("../../js/daisyTheRacoon/spritesheets/run.gif", img => {img.resize(Player.imgX, 0);});
       // Player.hurtGif = loadImage("spritesheets/hurt.gif", img => {img.resize(Player.imgX, 0);});
       // Player.dieGif = loadImage("spritesheets/die.gif", img => {img.resize(Player.imgX, 0);});
       // Player.attackGif = loadImage("spritesheets/attack.gif", img => {img.resize(Player.imgX, 0);});

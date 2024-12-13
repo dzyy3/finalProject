@@ -17,17 +17,17 @@ let font;
 
 function preload() {
   Player.preload(); // call preload function in Player to preload sprites
-  bg1 = loadImage('bg1.png');
-  font = loadFont('assets/doto.ttf');
-  /*
-  img1 = loadImage('Hats/Beanie.png');
-  img2 = loadImage('Hats/CowboyHat.png');
-  img3 = loadImage('Hats/PirateHat.png');
-  img4 = loadImage('Hats/SantaHat.png');
-  img5 = loadImage('Hats/StrawHat.png');
-  img6 = loadImage('Hats/TopHat.png');
-  img7 = loadImage('Hats/WitchHat.png');
-*/
+  bg1 = loadImage('../../js/daisyTheRacoon/bg1.png');
+  font = loadFont('../../js/daisyTheRacoon/assets/doto.ttf');
+  
+  img1 = loadImage('../../js/daisyTheRacoon/Hats/Beanie.png');
+  img2 = loadImage('../../js/daisyTheRacoon/Hats/CowboyHat.png');
+  img3 = loadImage('../../js/daisyTheRacoon/Hats/PirateHat.png');
+  img4 = loadImage('../../js/daisyTheRacoon/Hats/SantaHat.png');
+  img5 = loadImage('../../js/daisyTheRacoon/Hats/StrawHat.png');
+  img6 = loadImage('../../js/daisyTheRacoon/Hats/TopHat.png');
+  img7 = loadImage('../../js/daisyTheRacoon/Hats/WitchHat.png');
+
 }
 
 function setup() {
