@@ -91,3 +91,18 @@ footer {
   transform: scale(1.2);
 }
 
+#resumeContainer {
+  margin: 100px 0 30px;;
+  display:flex;
+}
+
+.resumeBG {
+  background-color: #4b3832;
+  padding:10px;
+  display:flex;
+  margin:auto;
+}
+
+#resumeContainer img {
+  height:1000px;
+}
