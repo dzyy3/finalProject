@@ -1,0 +1,35 @@
+#hero {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background: linear-gradient(135deg, #ffe5d0, #ffb385, #ffcc80);
+    background-size: 400% 400%; 
+    animation: gradientMove 8s infinite; 
+    color: #4b3832;
+  }
+
+  #hero p {
+    font-size: 1.2em;
+  }
+  
+  /* Keyframes for animated gradient */
+  @keyframes gradientMove {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+  }
+
+#about p {
+    font-size: 1.1em;
+    line-height: 1.6;
+}
+
+#about {
+    padding: 60px 20px;
+    text-align: center;
+    background-color: #fff3e8;
+    border-top: 4px solid #ffe5d0;
+  }
