@@ -20,6 +20,11 @@ h2 {
   margin-bottom: 15px;
 }
 
+p {
+  font-size: 1.1em;
+  line-height: 1.6;
+}
+
 /* 
  * Navbar
  */

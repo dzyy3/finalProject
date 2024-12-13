@@ -50,3 +50,8 @@
     height:fit-content;
     width:fit-content;
   }
+
+#description {
+    width: 60%;
+    text-align: center;
+}
